@@ -1,5 +1,5 @@
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 360px) and (max-width: 640px) {
 
     body{
         display: block;
@@ -11,8 +11,9 @@
         background-color: orange;
     }
 
-    div.noticias , div.not {
-        width: 480px;
+    ul > li > img{
+        border-radius: 50%;
+    }
       
     }
     

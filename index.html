@@ -11,29 +11,33 @@
     <main>
         <h1>Assista tv online e ao vivo</h1>
         <P>Cadastre-se gratuitamente para ter todo nosso conteudo</P>
-        <form action="cadastro.php" method="post">
+        <form action="pagina002.html" method="post">
 
             <fieldset class="cadastro">
                 <div class="cad">
                     <label for="nome"><strong>Nome</strong></label>
-                    <input type="text" name="nome" id="" required>
+                    <input type="text" name="nome" id="nome" required maxlength="20" placeholder="Seu nome é:">
                 </div>
                 <div class="cad">
                     <label for="sobrenome"><strong>Sobrenome</strong></label>
-                    <input type="text" name="" id="" required> <BR>
+                    <input type="text" name="sobrenome" id="sobrenome" required maxlength="30" placeholder="Seu sobrenome é:"> <br>
                 </div>
             </fieldset>
 
             <fieldset>
                 <div>
-                    <label for="aceit">Aceito os termos e condições</label>
-                    <input type="checkbox" name="ACEITO" id="ACEITO" required>ACEITO
+                    <label for="aceito"><strong>Aceito os termos e condições</strong></label>
+                    <input type="checkbox" name="aceito" id="aceito" required> ACEITO
                 </div>
             </fieldset>
 
-           <div class="enviar">
-            <a href="pagina002.html">Enviar</a>
-           </div>
+            <div id="enviar">
+                <input type="submit" value="Enviar">
+            </div>
+
+           
+           
+           
         
         
         

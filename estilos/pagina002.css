@@ -19,47 +19,20 @@ h1 {
     padding: 20px;
 }
 
-div.c1 {
+ul {
     display: flex;
-    padding: 20px;
-    margin: 20px;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px;
 }
 
-div.c2 {
-    display: grid;
-    text-align: center;
-    justify-content: space-around;
-    margin: auto;
-    padding: 20px;
+ul > li {
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
     
 }
 
-div.c2 > a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-   
-}
-
-div.c3 {
-    display: flex;
-    padding: 20px;
-    margin: 20px;
-}
-
-div.c4 {
-    margin: auto;
-    padding: 20px;
-    display: grid;
+ul > li > p {
     text-align: center;
-    justify-content: space-around;
-    margin: auto;
-    
 }
-
-div.c4 > a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-

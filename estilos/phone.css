@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px)  {
+@media screen and (min-width: 360px) and (max-width: 640px)  {
 
     body {
        
@@ -15,10 +15,9 @@
     }
 
     main {
-        width: 480px;
-        margin: 1px;
-        padding: 10px 20px 10px 0px;
-        border: 1px solid black;
+        width: auto;
+        margin: auto;
+        padding: 10px 20px;
         margin-top: 50px;
         position: relative;
         top: 10%;
@@ -27,16 +26,12 @@
 
     }
 
-    div.c1 , div.c2 , div.c3 , div.c4 {
+    img {
         padding: 5px;
-        width: auto;
+        width: 50px;
         
     }
 
-    a{
-        width: 10px;
-        text-align: center;
-    }
 
 }
     
