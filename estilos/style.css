@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+body , html {
+    background-color: rgba(244, 173, 81, 0.449);
+    margin: 10px;
+}
+
+main {
+    padding: 10px;
+    margin: 5px;
+}
+
+div {
+    width: auto;
+    padding: 10px;
+    display: inline-block
+}
+
+div.enviar{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+div.enviar a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 2px solid rgba(28, 28, 170, 0.64);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: auto;
+}
+
+
+
