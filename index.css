@@ -54,7 +54,7 @@ div#enviar {
     margin: 0 auto;
 }
 
-input[type = "submit"] {
+a {
     background-color: rgba(28, 28, 170, 0.64);
     color: black;
     padding: 10px;
