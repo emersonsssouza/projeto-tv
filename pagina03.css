@@ -32,17 +32,3 @@ img {
     background-color: white;
     border: 4px solid white;
 }
-
-@media screen and (min-width: 360px) and (max-width: 500px) {
-
-    body{
-        background-color: orange;
-    }
-
-    main{
-        background-color: orangered;
-        margin: auto;
-    }
-
-
-}
