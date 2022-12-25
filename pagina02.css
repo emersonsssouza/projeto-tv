@@ -8,13 +8,13 @@
 
 body , html{
     background-color: black;
-    margin: 10px;
+    margin: auto;
 }
 
 main {
     background-color: orange;
     margin-top: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
     text-decoration: overline underline;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 10px;
 }
 
 ul {
@@ -46,16 +46,16 @@ ul > li > p {
 
 @media screen and (min-width: 360px) and (max-width: 500px) {
     body{
-        width: 300px;
+        width: 400px;
         margin: auto;
     }
 
     main{
         text-align: center;
-        width: 380px;
+        width: 360px;
         height: 100vh;
         background-color: white;
-        margin: 0px;
+        margin: auto;
         border: 5px solid red;
         border-radius: 5px;
 
