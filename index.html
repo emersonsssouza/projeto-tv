@@ -8,38 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <div>
-            <h1>Assista tv online e ao vivo</h1>
-            <P>Cadastre-se gratuitamente para ter todo nosso conteudo</P>
-        </div>
-        <form action="form.php" method="get">
-
-            <fieldset class="cadastro">
-                <div class="cad">
-                    <label for="nome"><strong>Nome</strong></label>
-                    <input type="text" name="nome" id="nome" required maxlength="20" placeholder="Seu nome é:">
-                </div>
-                <div class="cad">
-                    <label for="sobrenome"><strong>Sobrenome</strong></label>
-                    <input type="text" name="sobrenome" id="sobrenome" required maxlength="30" placeholder="Seu sobrenome é:"> <br>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <div>
-                    <label for="aceito"><strong>Aceito os termos e condições</strong></label>
-                    <input type="checkbox" name="aceito" id="aceito" required> ACEITO
-                </div>
-            </fieldset>
-
-            <div id="enviar">
-                <button><a href="pagina02.html">Enviar</a></button>
-                
+   <main>
+       <header>
+        <div class="conteudo-principal">
+            <div class="conteudo-secundario">
+                Ticole TV
             </div>
+            <div class="conteudo-secundario">
+                <a href="https://pluto.tv/pt/live-tv/csi-miami-ptv4">TV Ao Vivo</a>
+                <a href="">Canais</a>
+                <a href="">Opções</a>
+            </div>
+        </div>
+       </header>
+       
+       <section id="slider">
+        <img class="selected" src="imagens/pexels-cottonbro-studio-4009409.jpg" alt="">
+        <img class="" src="imagens/pexels-cottonbro-studio-4842574.jpg" alt="">
+        <img class="" src="imagens/pexels-jeshootscom-1201996.jpg" alt="">
+        <img class="" src="imagens/pexels-johnmark-smith-2726370.jpg" alt="">
+        <img class="" src="imagens/pexels-martin-lopez-1117132.jpg" alt="">
+       </section>
 
-        </form>
-    </main>
-    
+       
+       <script src="javascript/script.js"></script>
+       
+   </main>
 </body>
 </html>
